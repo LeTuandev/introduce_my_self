@@ -1,0 +1,46 @@
+.header {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+
+    &__title {
+        font: normal 32px/150% 'Roboto', sans-serif;
+    }
+
+    &__menu {
+        a {
+            color: black;
+            margin-right: 18px;
+            font: normal 32px/150% 'Roboto', sans-serif;
+        }
+
+        &-is-active {
+            color: orange !important;
+        }
+    }
+}
+
+.my-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: calc(100vh - 148px - 172px);
+}
+
+.footer {
+    padding: 50px;
+
+    &__link {
+        display: flex;
+        justify-content: center;
+
+        i {
+            margin-right: 12px;
+            font-size: 32px;
+        }
+    }
+
+    &__rules {
+        text-align: center;
+        margin-top: 10px;
+    }
+}

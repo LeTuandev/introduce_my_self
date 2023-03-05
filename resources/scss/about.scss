@@ -1,0 +1,15 @@
+@import "./home.scss";
+
+.about {
+  margin-top: 50px;
+
+  &__avatar {
+    img {
+      border-radius: 50%;
+    }
+  }
+}
+
+.title {
+  font: normal 32px/150% 'Roboto', sans-serif;
+}

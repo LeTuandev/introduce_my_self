@@ -1,0 +1,12 @@
+.content {
+  padding: 100px;
+
+  &__name {
+    font: normal 32px/150% 'Roboto', sans-serif;
+  }
+
+  &__introduce,
+  &__note {
+    font: normal 20px/150% 'Roboto', sans-serif;
+  }
+}
